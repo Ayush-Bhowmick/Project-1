@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap");
+
+body {
+  margin: 18px 60px;
+}
+
+.navbar-container {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 100vh;
+  list-style-type: none;
+  padding: 0px auto;
+}
+
+.button-group {
+  padding: 14px 54px;
+  display: flex;
+  justify-content: space-between;
+  width: 100vh;
+}
+
+.search-icon {
+  margin-right: -3px;
+  height: 4px;
+  position: relative;
+  margin-left: 172px;
+  /* padding: 4px 8px;
+  border-radius: 5px;
+  border-color: dimgray; */
+}
+
+.nav-button {
+  padding: 4px 28px;
+  border-radius: 5px;
+  border-color: dimgray;
+  font-size: 14px;
+}
+
+.list-item {
+  text-align: center;
+  padding: 6px 6px;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 40px;
+}
+
+.logo {
+  width: 14vh;
+  height: 6px;
+  margin: 17px 54px;
+}
+
+.hero-container-right {
+  font-family: "Orbitron", sans-serif;
+}
+
+.hero-container {
+  flex-direction: row;
+}
+
+.globe {
+  position: absolute;
+  top: 94px;
+  left: 680px;
+  height: 8px;
+}
+
+.star {
+  position: absolute;
+  left: 189vh;
+  top: 30vh;
+}
+.person {
+  position: absolute;
+  top: 23%;
+
+  height: 40%;
+}
+.square {
+  position: relative;
+  top: 294px;
+  left: 180px;
+}
+.hero-container-right {
+  float: right;
+  margin-top: 170px;
+  width: 750px;
+  /* height: 260px; */
+  padding: 0 15px 0 0;
+  font-size: larger;
+  text-align: center;
+}
+p {
+  font-family: sans-serif;
+  font-size: small;
+  word-wrap: break-word;
+  text-align: center;
+}
+.button-email {
+  font-family: Orbitron;
+  padding: 2px 13px;
+  border-radius: 5px;
+  line-height: 20px;
+}
+.button-join {
+  font-family: Orbitron;
+  background-color: black;
+  color: whitesmoke;
+  font-size: medium;
+  border-radius: 5px;
+  line-height: 20px;
+}
+.contact-heading {
+  font-family: sans-serif;
+}
+.hero-heading {
+  font-size: 50px;
+  width: 780px;
+}
+.hero-description {
+  word-wrap: break-word;
+  width: 540px;
+  padding-left: 120px;
+  word-spacing: space-between;
+  letter-spacing: 0.5px;
+}
